@@ -21,6 +21,10 @@ $fa-font-path: "../webfonts" !default;
     height: 480px !important;
 }
 
+.activeLink {
+    color: $color_white !important;
+}
+
 .buttonDetails {
     background-color: $color_primary;
     color: $color_white;

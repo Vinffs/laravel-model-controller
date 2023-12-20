@@ -9,9 +9,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navSelection">
             <div class="navbar-nav">
-                <a class="nav-link px-3 fs-4" href="{{ route('home') }}">Home</a>
-                <a class="nav-link px-3 fs-4" href="{{ route('movies.index') }}">Movies</a>
-                <a class="nav-link px-3 fs-4" href="{{ route('books.index') }}">Books</a>
+                <a class="nav-link px-3 fs-4 {{ Route::currentRouteName() == 'home' ? 'activeLink' : '' }}"
+                    href="{{ route('home') }}">Home</a>
+                <a class="nav-link px-3 fs-4 {{ Route::currentRouteName() == 'movies.index' ? 'activeLink' : '' }}"
+                    href="{{ route('movies.index') }}">Movies</a>
+                <a class="nav-link px-3 fs-4 {{ Route::currentRouteName() == 'books.index' ? 'activeLink' : '' }}"
+                    href="{{ route('books.index') }}">Books</a>
             </div>
         </div>
     </div>
