@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Index Movies')
+@section('title', 'Show Movies')
 
 @section('content')
     <main class="container text-center">

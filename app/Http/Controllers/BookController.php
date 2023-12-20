@@ -2,12 +2,20 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Book;
 use Illuminate\Http\Request;
 
 class BookController extends Controller
 {
     public function index()
     {
-        return view('pages.books.index');
+        $books = Book::all();
+        return view('pages.books.index', compact('books'));
+    }
+
+    public function show($id)
+    {
+        $book = Book::findOrFail($id);
+        return view('pages.books.show', compact('book'));
     }
 }
