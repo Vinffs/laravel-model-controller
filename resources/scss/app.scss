@@ -1,4 +1,4 @@
-@use './partials/variables' as *;
+@use "./partials/variables" as *;
 
 $fa-font-path: "../webfonts" !default;
 
@@ -7,8 +7,71 @@ $fa-font-path: "../webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
 
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 
-h1 {
-    color: $text-color;
+.red {
+    color: $color_primary;
+}
+
+.my-ratio {
+    height: 350px;
+}
+
+.my-card {
+    height: 480px !important;
+}
+
+.buttonDetails {
+    background-color: $color_primary;
+    color: $color_white;
+    text-decoration: none;
+    padding: 0.3em 1em;
+    border-radius: 10px;
+}
+
+body {
+    background-color: $color_lightgrey;
+}
+
+#navbar {
+    background-color: $color_secondary;
+
+    .logo {
+        width: 150px;
+        height: 100px;
+    }
+
+    #navSelection {
+        a {
+            color: $color_primary;
+        }
+    }
+}
+
+#bottomFooter {
+    background-color: $color_secondary;
+
+    button {
+        background-color: $color_secondary;
+        color: $color_white;
+        font-size: 1.2em;
+        font-weight: bold;
+        border: 2px solid $color_primary;
+        padding: 0.5em 1em;
+        border-radius: 0 !important;
+    }
+
+    li {
+        padding: 0 0.5em;
+    }
+
+    ul {
+        margin: 0 !important;
+
+        & > li:first-child {
+            color: $color_primary;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    }
 }
