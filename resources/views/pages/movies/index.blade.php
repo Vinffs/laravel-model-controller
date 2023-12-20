@@ -14,6 +14,7 @@
                             <h6 class="card-title">
                                 {{ $movie->title }}
                             </h6>
+                            <a href="#" class="btn btn-primary">See Details</a>
                         </div>
                     </div>
                 </div>
