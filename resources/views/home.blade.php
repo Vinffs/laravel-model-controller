@@ -21,7 +21,8 @@
         <h3 class="text-center text-white pb-2">
             🍿 Lights, Camera, Action!🍿</h3>
         <h6 class="text-center pb-5 balanceText">
-            Embark on a thrilling cinematic journey with our Movie Page. Immerse yourself in the world of film as we curate
+            Embark on a thrilling cinematic journey with our Movie Selection. Immerse yourself in the world of film as we
+            curate
             a
             diverse selection of genres, from heartwarming dramas to pulse-pounding action, and everything in between.
             Explore
@@ -32,7 +33,8 @@
 
         <h3 class="text-center text-white pb-2">📖 Unleash Your Imagination 📖</h3>
         <h6 class="text-center pb-5 balanceText">
-            For the literary adventurers among us, our Book Page is a treasure trove waiting to be discovered. Dive into the
+            For the literary adventurers among us, our Book Selection is a treasure trove waiting to be discovered. Dive
+            into the
             realms of fiction and non-fiction alike, where every page opens a portal to new ideas, characters, and
             universes.
             From classic novels to contemporary bestsellers, find your next literary companion through our curated
